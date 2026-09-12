@@ -1,0 +1,7 @@
+6
+sakib 10 70
+rakib 9 77 
+tamim 19 89 
+samim 8 70
+tonoy 9 49
+rabbi 7 80
