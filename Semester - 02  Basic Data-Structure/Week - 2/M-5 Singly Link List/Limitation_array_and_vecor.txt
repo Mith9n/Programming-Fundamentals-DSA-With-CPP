@@ -1,0 +1,31 @@
+                
+                  Limitation_array_and_vecor
+
+Aspect           	Array	                      Vector
+
+Size	            Fixed	                      Dynamic, resizable
+Bounds Checking	    Not available	              Available (at() method)
+Memory Management	Manual for dynamic arrays     Automatic
+Ease of Use	        Limited	                      Rich built-in methods
+Performance	        No overhead for resizing	  Overhead during resizing
+
+Static Arrays (Fixed Size):  When you declare a static array, memory is allocated as one continuous block during compile-time or when the program starts.
+                    
+                      int arr[5];
+
+Dynamic Arrays: Dynamic arrays (created with new or malloc) also use one contiguous block of memory.
+
+                    int* arr = new int[5];
+
+Vector Memory Usage: Vectors use memory in contiguous blocks, but they allocate more memory than needed to allow for growth.
+
+
+                    vector<int> vec;
+                    vec.push_back(1); 
+                    vec.push_back(2); 
+
+
+
+
+
+

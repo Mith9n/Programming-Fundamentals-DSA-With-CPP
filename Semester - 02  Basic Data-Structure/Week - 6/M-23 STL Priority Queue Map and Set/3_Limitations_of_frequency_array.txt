@@ -1,0 +1,14 @@
+
+
+Array - index_value_pair 
+
+limitation :-
+
+            (i) only integer ;
+            (ii) index (0-10^6) ;
+            (iii) memory wast ;
+
+
+Map - key_value_pair :
+
+            (i) index (0-10^18) ;

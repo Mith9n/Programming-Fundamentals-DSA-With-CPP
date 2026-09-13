@@ -1,0 +1,4 @@
+Total Node :6
+leaf Node  :3
+Max Hight  :2
+10 20 30 40 50 60 

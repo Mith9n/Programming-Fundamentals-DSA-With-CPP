@@ -1,0 +1,3 @@
+Insert at head - time complixity - O(1);
+Insert at tail - time complixity - O(n); // it can do optimize
+Insert at any_position - time complixity - O(n);

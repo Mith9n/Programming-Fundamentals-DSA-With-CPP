@@ -1,0 +1,11 @@
+set : C++-এ binary search tree (সাধারণত Red-Black Tree) এর উপর ভিত্তি করে তৈরি করা হয়েছে। এর ফলে, insertion, deletion, এবং search অপারেশনগুলো O(log n) টাইম কমপ্লেক্সিটিতে সম্পন্ন হয়।
+
+set : follow bst (inorder traversal) ;
+
+         10
+       /    \
+      5      15
+     / \    /  \
+    3   7  12   18
+
+inorder traversal : 3 5 7 10 15 12 18 

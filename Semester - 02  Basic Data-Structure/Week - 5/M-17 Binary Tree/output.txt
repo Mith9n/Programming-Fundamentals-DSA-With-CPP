@@ -1,0 +1,1 @@
+Pre-order traversal: 1 2 4 5 3 

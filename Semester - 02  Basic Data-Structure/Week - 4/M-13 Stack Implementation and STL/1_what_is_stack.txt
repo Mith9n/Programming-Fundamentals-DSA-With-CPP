@@ -1,0 +1,40 @@
+- stack ?
+
+-A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. This means the last element added to the stack is the first one to be removed. You can think of it like a stack of plates: the plate you place on top is the one you remove first.
+
+Characteristics of a Stack :-
+
+LIFO Behavior: Last element added is the first to be removed.
+One Open End: Elements are added and removed from the same end, called the top of the stack.
+Restricted Operations: Stacks have two main operations:
+Push: Add an element to the top of the stack.
+Pop: Remove the top element from the stack.
+
+Additional operations often include:-
+
+Peek/Top: View the element at the top without removing it.
+IsEmpty: Check if the stack is empty.
+IsFull: Check if the stack is full (if implemented with a fixed size).
+
+Applications of Stacks :-
+
+Function Call Management: Used in recursion and function calls (call stack).
+Undo/Redo: Text editors or tools for reversing operations.
+Expression Evaluation: Converting infix to postfix, evaluating postfix expressions.
+Parenthesis Matching: Check if parentheses/brackets are balanced in an expression.
+Backtracking: Games, mazes, and solving puzzles like the Tower of Hanoi.
+Web Browsers: Navigation history (back/forward functionality).
+
+
+Types of Stack Implementation :-
+
+- Array-Based Stack:-
+Uses a fixed-size array.
+Fast but limited by predefined size.
+
+-Linked List-Based Stack:-
+Uses dynamic memory allocation (linked list nodes).
+Flexible size but requires extra memory for pointers.
+
+
+maruf-hasan-mithon

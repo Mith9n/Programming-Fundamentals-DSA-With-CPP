@@ -1,0 +1,82 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Node {
+public:
+    int value;
+    Node* left;
+    Node* right ;
+
+    Node(int value)
+    {
+        this->value = value;
+        this->left = NULL;
+        this->right = NULL;
+    }
+};
+
+Node* input_tree (){
+    int value ;
+    cin>>value ;
+    Node* root ;
+    if( value == -1) root = NULL;
+    else root =  new Node ( value);
+
+    queue <Node*> q;
+    if(root) q.push( root);
+
+    while(!q.empty()){
+
+        Node* p = q.front() ;
+        q.pop();
+
+        // input next 2 node 
+
+        int l,r ;
+        cin >> l >> r ;
+
+        Node *myLeft , *myRight ;
+
+        if(l == -1) myLeft = NULL;
+        else myLeft = new Node(l);
+
+        if(r == -1) myRight = NULL;
+        else myRight = new Node (r);
+
+        // linking 
+        p->left = myLeft ;
+        p->right = myRight ;
+
+        //chid node push 
+
+        if(p->left) {
+            q.push (p->left);
+        }
+
+        if(p->right){
+            q.push(p->right);
+        }
+    }
+ 
+  return root ;
+    
+}
+
+
+// count node use recursion ...
+
+int count_nodes (Node* root){
+if(root == NULL) return 0;
+
+int l = count_nodes(root->left);
+int r = count_nodes(root->right);
+return l+r+1;
+
+}
+
+int main() {
+
+   Node* root = input_tree();
+   cout<<count_nodes(root);
+
+}

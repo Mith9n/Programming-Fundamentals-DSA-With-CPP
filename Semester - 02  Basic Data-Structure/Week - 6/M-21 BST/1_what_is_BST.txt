@@ -1,0 +1,7 @@
+
+💻 what is bst ?
+
+- binary search + binary tree (combine);
+
+1. all values of the left-sub-tree < node -> node value ;
+2. all values of the right-sub-tree > node -> node value ;
