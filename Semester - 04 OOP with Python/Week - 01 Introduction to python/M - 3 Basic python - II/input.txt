@@ -1,0 +1,19 @@
+N = int(input())  
+A = list(map(int, input().split()))  
+
+min_divisions = 10**9 
+
+for num in A:
+    count = 0  
+    
+    while num % 2 == 0:  
+        num //= 2  
+        count += 1  
+    
+    min_divisions = min(min_divisions, count) 
+
+print(min_divisions)  
+
+
+
+

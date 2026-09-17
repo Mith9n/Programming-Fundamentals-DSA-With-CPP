@@ -1,0 +1,7 @@
+
+===== Bangladesh Bus Ticket Booking System =====
+1. Admin Login
+2. Book Ticket
+3. View Buses
+4. Exit
+Enter your choice: 
