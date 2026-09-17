@@ -88,7 +88,7 @@ Each module folder contains the relevant `.c` / `.cpp` source file(s), and sever
 | M-9.5 | Practice Day |
 | M-10 | 2D Array |
 | M-11 | String |
-| M-12 | Concept Clear Session — Functions, Pointers, Recursion, Structures, Sorting, Pattern Printing |
+| M-room | Concept Clear Session 
 
 ### Semester 1.5 — Introduction to C++
 
