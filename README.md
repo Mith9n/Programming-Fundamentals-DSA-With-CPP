@@ -48,7 +48,6 @@ This repository serves as a personal knowledge base and portfolio of academic wo
 - Dynamic programming
 - Object-oriented programming in Python, including real-world mini projects
 
-> Modules marked with **`*`** in the tables below have been added to close gaps in the original numbering, based on standard curriculum sequencing. Add the corresponding source files locally if they are not yet present.
 
 ---
 
@@ -73,22 +72,18 @@ Each module folder contains the relevant `.c` / `.cpp` source file(s), and sever
 
 | Module | Topic |
 |:------:|-------|
-| M-01 `*` | Introduction to Programming / Environment Setup |
+| M-01 | Introduction to Programming / Environment Setup |
 | M-02 | Basic Syntax |
-| M-2.5 | Practice Problems |
 | M-03 | Lab Class |
-| M-3.5 | Lab Class (Continued) |
-| M-3.5.1 | Trial Contest |
 | M-04 | Loops & Flowcharts |
 | M-05 | Looping Statements |
 | M-06 | Data Types |
 | M-07 | Assignment |
 | M-08 | Introduction to Array |
 | M-09 | Nested Loop |
-| M-9.5 | Practice Day |
 | M-10 | 2D Array |
 | M-11 | String |
-| M-room | Concept Clear Session 
+| M-CCR | Concept Clear Session |
 
 ### Semester 1.5 — Introduction to C++
 
@@ -97,8 +92,8 @@ Each module folder contains the relevant `.c` / `.cpp` source file(s), and sever
 | M-01 | Basic C++ |
 | M-02 | Dynamic Memory |
 | M-03 | Class and Object |
-| M-04 `*` | Constructor & Destructor |
-| M-05 `*` | Operator Overloading |
+| M-04 | Constructor & Destructor |
+| M-05 | Operator Overloading |
 | M-06 | Class and String (Advanced) |
 | M-07 | Array of Objects |
 
@@ -113,24 +108,22 @@ Each module folder contains the relevant `.c` / `.cpp` source file(s), and sever
 | M-05 | Singly Linked List |
 | M-06 | Singly Linked List Operations |
 | M-07 | Singly Linked List — Advanced Operations |
-| M-08 `*` | Circular Linked List |
+| M-08 | Circular Linked List |
 | M-09 | Doubly Linked List |
 | M-10 | STL List & Cycle Detection |
-| M-11 `*` | Recursion |
-| M-12 `*` | Recursion — Practice Problems |
+| M-11 | Recursion |
+| M-12 | Recursion — Practice Problems |
 | M-13 | Stack Implementation & STL |
 | M-14 | Queue Implementation & STL |
-| M-14.5 | Practice Day |
 | M-15 | Problem Solving with Stack & Queue |
-| M-16 `*` | Tree Introduction & Terminology |
+| M-16 | Tree Introduction & Terminology |
 | M-17 | Binary Tree |
 | M-18 | Binary Tree — Operations |
-| M-19 `*` | Tree Traversal (BFS/DFS) |
+| M-19 | Tree Traversal (BFS/DFS) |
 | M-20 | Assignment |
 | M-21 | Binary Search Tree (BST) |
 | M-22 | Heap Implementation |
 | M-23 | STL Priority Queue, Map & Set |
-
 
 ### Semester 03 — Basic Algorithms
 
@@ -140,16 +133,16 @@ Each module folder contains the relevant `.c` / `.cpp` source file(s), and sever
 | M-02 | Breadth-First Search (BFS) |
 | M-02.5 | Single-Source Shortest Distance (Practice) |
 | M-03 | Depth-First Search (DFS) |
-| M-04 `*` | Cycle Detection — Undirected Graph |
-| M-05 `*` | Cycle Detection — Directed Graph |
-| M-06 `*` | Topological Sort |
-| M-07 `*` | Dijkstra's Algorithm |
-| M-08 `*` | Minimum Spanning Tree — Prim's / Kruskal's |
+| M-04 | Cycle Detection — Undirected Graph |
+| M-05 | Cycle Detection — Directed Graph |
+| M-06 | Topological Sort |
+| M-07 | Dijkstra's Algorithm |
+| M-08 | Minimum Spanning Tree — Prim's / Kruskal's |
 | M-09 | Bellman-Ford Algorithm |
 | M-10 | Floyd-Warshall Algorithm |
 | M-11 | Disjoint Set Union (DSU) |
-| M-12 `*` | Introduction to Dynamic Programming / Memoization |
-| M-13 `*` | Longest Common Subsequence (LCS) |
+| M-12 | Introduction to Dynamic Programming / Memoization |
+| M-13 | Longest Common Subsequence (LCS) |
 | M-14 | 0/1 Knapsack |
 
 ### Semester 04 — OOP with Python
@@ -159,7 +152,7 @@ Each module folder contains the relevant `.c` / `.cpp` source file(s), and sever
 | M-01 | Introduction to Python — Data Types, Variables, I/O, Type Casting, Operators, Loops |
 | M-02 | Basic Python I — Functions, Default Parameters, *args/**kwargs, Scope, Built-in Functions, Lists, List Comprehension |
 | M-03 | Basic Python II — Strings, Tuples, Sets, Dictionaries, Built-in Modules, External Packages (PyAutoGUI, OpenCV) |
-| M-04 `*` | File Handling & Exception Handling |
+| M-04 | File Handling & Exception Handling |
 | M-05 | Class and Object — Constructors (`__init__`), Methods, Class vs Instance Attributes |
 | M-06 | Python OOP — Inheritance (Single, Multi-level, Multiple), Encapsulation, Abstraction, Polymorphism |
 | M-07 | Method Overriding, Operator Overloading, Getters/Setters, Decorators, Composition vs Inheritance |
@@ -220,7 +213,6 @@ python filename.py
 | `Semester - N` | A semester-level grouping of related topics |
 | `M-N` / `Module - N` | An individual topic module within a semester |
 | `W-N` | A weekly grouping used in Semester 03 |
-| `*` (in tables above) | Module added to complete the topic sequence |
 
 ---
 
